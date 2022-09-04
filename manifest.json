@@ -1,6 +1,6 @@
 {
     "name": "DofusBook Atelier Bouton Copier",
-    "description": "Ajout d'un bouton pour chaque nom de ressource dans l'atelier de DofusBook",
+    "description": "Ajout d'un bouton pour copier chaque nom de ressource dans l'atelier de DofusBook",
     "version": "1.0",
     "manifest_version": 3,
     "content_scripts": [
