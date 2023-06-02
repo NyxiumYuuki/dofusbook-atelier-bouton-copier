@@ -12,7 +12,7 @@ function addCopyButtonAtelier() {
     if(itemCells.length > 0){
         for(const itemCell of itemCells) {
             const itemWrapper = itemCell.getElementsByClassName('wrapper').item(0);
-            const itemName = itemWrapper.getElementsByClassName('label').item(0).innerHTML.slice(1, -1);
+            const itemName = itemWrapper.getElementsByClassName('label').item(0).innerHTML;
 
             if(itemWrapper.getElementsByClassName('copy-btn').length == 0){
                 let itemCopyButton = document.createElement("button");
